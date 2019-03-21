@@ -1,0 +1,25 @@
+/* iphone */
+
+.column {
+    background-color: #000;
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*margin then first number will indicate the top and bottom margins are Xpx and then the second number will be left and right margin Xpx,
+    if we say margin: 10px 0px; the div will have 10px above and below, 0 on either side right/left. */
+    
+}
+
+/*other screen */
+
+@media (min-width: 992px) {
+    .column {
+        width: 30%;
+        margin: 10px;
+        background-color: #bada55;
+    }
+}
+
+
